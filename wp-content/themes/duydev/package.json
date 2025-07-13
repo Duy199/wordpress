@@ -1,0 +1,23 @@
+{
+  "name": "nightlife-theme",
+  "version": "1.0.0",
+  "description": "Duy Theme nightlife WordPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"OK\"",
+    "build": "grunt",
+    "watch": "grunt watch"
+  },
+  "author": "thanhduytran",
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^4.0.0",
+    "sass": "^1.89.2"
+  }
+}
