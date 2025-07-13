@@ -1,12 +1,18 @@
-# ❌ Ignore everything
-*
+/*
+!/.gitignore
 
-# ✅ Keep .gitignore
-!.gitignore
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/duydev/
+/wp-content/themes/duydev/vendor
 
-# ✅ Keep wp-content folders
-!wp-content/
-!wp-content/themes/
-!wp-content/themes/duydev/
-!wp-content/plugins/
-!wp-content/plugins/duydev/
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/duydev
+
+
+# /wp-content/plugins/artemis/*
+# !/wp-content/plugins/acf
+# !/wp-content/plugins/chaty
