@@ -1,0 +1,12 @@
+# ❌ Ignore everything
+*
+
+# ✅ Keep .gitignore
+!.gitignore
+
+# ✅ Keep wp-content folders
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/duydev/
+!wp-content/plugins/
+!wp-content/plugins/duydev/
